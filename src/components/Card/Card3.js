@@ -8,7 +8,7 @@ import PhotoUser from "../../assets/erin-lindford.jpg";
 export default function Card3() {
   return (
     <>
-      <div className="p-20">
+      <div className="p-10">
         <div className="max-w-sm rounded rounded-lg overflow-hidden shadow-lg">
           <img className="w-full" src={Photo} alt="Food" />
           <div className="px-6 py-2">
@@ -16,7 +16,10 @@ export default function Card3() {
               <div className="font-bold text-xl mb-2 text-red-600">
                 Nasi Campur
               </div>
-              <img className="text-red-600" src={IconHeart} alt="icon-heart" />
+              <div className="flex content-end">
+                <div className="mr-2">Like</div>
+                <img src={IconHeart} alt="icon-heart" />
+              </div>
             </div>
           </div>
           <div className="px-6">
