@@ -12,7 +12,7 @@ import "./styles/tailwind.css";
 function App() {
   return (
     <>
-      <Card />
+      <Button />
     </>
   );
 }
